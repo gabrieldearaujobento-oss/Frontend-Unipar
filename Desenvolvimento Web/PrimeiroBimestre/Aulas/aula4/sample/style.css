@@ -42,3 +42,29 @@
 .fixo:hover {
     border-radius: 50%;
 }
+
+.block {
+    background-color: red;
+    height: 100px;
+}
+
+.inline {
+    background-color: purple;
+    width: 200px;
+    height: 200px; 
+}
+
+.inline-block {
+    background-color: purple;
+    display: inline-block;
+    width: 200px;
+    height: 200px; 
+}
+
+.texto h1 {
+    font-size: 32px;
+}
+
+.texto h2 {
+    font-size: 2rem;
+}
