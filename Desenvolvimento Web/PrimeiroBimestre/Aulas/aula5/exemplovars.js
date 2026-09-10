@@ -4,44 +4,42 @@ const nomeNulo = null;
 
 const aluno = {
     id: 123213,
-    nome: "Gabriel",
+    nome: "João",
     ativo: true,
     pos: null,
-    dataNascimento : new Date("26/11/1998"),
+    dataNascimento: "26/11/1998",
     endereco: {
         rua: "Elias Abraao",
         numero: 2321,
         bairro: "Paulo Godoy",
         cidade: "Cascavel"
-    }
+    },
 }
 
-const frutas = ["🍊","🍉","🍇","🍌"];
-
-console.log(frutas)
-
-function soma(n1, n2, printarNome) {
+// + - / *
+// =
+// && - e
+// || OU
+function soma(n1, n2) {
     return n1 + n2;
 }
 
-console.log(soma(20, 40));
-console.log(() => 2 + 6)
-
+console.log(soma(2, 40));
+//() => o que você quer executar
 
 const valor1 = "2";
 const valor2 = 2;
 
-// dois igaul = = checa apenas valor
+//dois igual = = checa apenas valor
+if (valor1 == valor2) {
+    console.log("É igual!!")
+}
+
+//três igual = = = checar tipo e valor
 if (valor1 === valor2) {
     console.log("É igual!!")
 }
 
-//três igual = = = checa tipo e valor
-if (valor1 === valor2) {
-    console.log("É igual!!")
-}
+const frutas = ["🍊", "🍉", "🍇", "🍌"];
 
-for (let console.log = 0; console.log < array.length; console.log++) {
-    const element = array[console.log];
-    console.log(element)
-}
+frutas.forEach(fruta => console.log(fruta))
