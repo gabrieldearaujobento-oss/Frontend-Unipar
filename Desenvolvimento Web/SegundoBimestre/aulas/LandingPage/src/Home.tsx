@@ -1,7 +1,9 @@
+import "./styles/utility.css"
+
 export default function Home() {
     return (
-        <main>
-            <h1>Título 1</h1>
+        <main className="container">
+            <h1 className="desktop-only">Título 1</h1>
             <h2>Título 2</h2>
             <h3>Título 3</h3>
             {/* escrever lorem */}
